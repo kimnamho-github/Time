@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/drawable/button_background.xml" value="0.3802083333333333" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/drawable/button_shape.xml" value="0.3802083333333333" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/drawable/edittext_background.xml" value="0.3802083333333333" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/drawable/homebutton_background.xml" value="0.3802083333333333" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/drawable/homebutton_shape.xml" value="0.3802083333333333" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3802083333333333" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.3802083333333333" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/drawable/image_background.xml" value="0.3802083333333333" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/drawable/pressed_button_shape.xml" value="0.3802083333333333" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/drawable/pressed_homebutton_shape.xml" value="0.3802083333333333" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/drawable/text_line.xml" value="0.3802083333333333" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/drawable/text_line_shape.xml" value="0.3802083333333333" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/layout/activity_home.xml" value="0.3640625" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/layout/activity_inspection_grade_graph.xml" value="0.3640625" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/layout/activity_record.xml" value="0.3640625" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/layout/activity_result.xml" value="0.33" />
+        <entry key="..\:/Android_App/Time(change2)/app/src/main/res/layout/activity_sum_grade.xml" value="0.3640625" />
+        <entry key="..\:/Users/wwjee/Time(change)/app/src/main/res/layout/activity_home.xml" value="0.12083333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

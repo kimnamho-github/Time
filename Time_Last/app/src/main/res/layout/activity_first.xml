@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.Time.FirstActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="CES-D"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:padding="16dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:text="1. 평소에는 아무렇지도 않던 일들이 괴롭고 귀찮게 느껴졌다."
+        android:textSize="15dp"
+        android:background="@color/text"
+        android:padding="2dp"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/rg1">
+        <RadioButton
+            android:id="@+id/radio_1_1"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="전혀\n없었다" />
+        <RadioButton
+            android:id="@+id/radio_1_2"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="한두번\n있었다" />
+        <RadioButton
+            android:id="@+id/radio_1_3"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="많이\n있었다" />
+        <RadioButton
+            android:id="@+id/radio_1_4"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="매일\n있었다" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:text="2. 먹고 싶지 않고 식욕이 없었다."
+        android:textSize="15dp"
+        android:background="@color/text"
+        android:padding="2dp"
+        android:gravity="center"
+        android:singleLine="true" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/rg2">
+        <RadioButton
+            android:id="@+id/radio_2_1"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="전혀\n없었다" />
+        <RadioButton
+            android:id="@+id/radio_2_2"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="한두번\n있었다" />
+        <RadioButton
+            android:id="@+id/radio_2_3"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="많이\n있었다" />
+        <RadioButton
+            android:id="@+id/radio_2_4"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="매일\n있었다" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:text="3. 어느 누가 도와준다 하더라도 나의 울적한 기분을 떨쳐버릴수가 없을것같았다"
+        android:textSize="12dp"
+        android:background="@color/text"
+        android:padding="2dp"
+        android:gravity="center"
+        android:singleLine="true" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/rg3">
+        <RadioButton
+            android:id="@+id/radio_3_1"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="전혀\n없었다" />
+        <RadioButton
+            android:id="@+id/radio_3_2"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="한두번\n있었다" />
+        <RadioButton
+            android:id="@+id/radio_3_3"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="많이\n있었다" />
+        <RadioButton
+            android:id="@+id/radio_3_4"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="매일\n있었다" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:text="4. 무슨 일을 하던 정신을 집중하기가 힘들었다."
+        android:textSize="15dp"
+        android:background="@color/text"
+        android:padding="2dp"
+        android:gravity="center"
+        android:singleLine="true" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/rg4">
+        <RadioButton
+            android:id="@+id/radio_4_1"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="전혀\n없었다" />
+        <RadioButton
+            android:id="@+id/radio_4_2"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="한두번\n있었다" />
+        <RadioButton
+            android:id="@+id/radio_4_3"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="많이\n있었다" />
+        <RadioButton
+            android:id="@+id/radio_4_4"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="매일\n있었다" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:text="5. 비교적 잘 지냈다."
+        android:textSize="15dp"
+        android:background="@color/text"
+        android:padding="2dp"
+        android:gravity="center"
+        android:singleLine="true" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/rg5">
+        <RadioButton
+            android:id="@+id/radio_5_1"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="전혀\n없었다" />
+        <RadioButton
+            android:id="@+id/radio_5_2"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="한두번\n있었다" />
+        <RadioButton
+            android:id="@+id/radio_5_3"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="많이\n있었다" />
+        <RadioButton
+            android:id="@+id/radio_5_4"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="매일\n있었다" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:text="6. 상당히 우울했다."
+        android:textSize="15dp"
+        android:background="@color/text"
+        android:padding="2dp"
+        android:gravity="center"
+        android:singleLine="true" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/rg6">
+        <RadioButton
+            android:id="@+id/radio_6_1"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="전혀\n없었다" />
+        <RadioButton
+            android:id="@+id/radio_6_2"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="한두번\n있었다" />
+        <RadioButton
+            android:id="@+id/radio_6_3"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="많이\n있었다" />
+        <RadioButton
+            android:id="@+id/radio_6_4"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="매일\n있었다" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="다음"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
